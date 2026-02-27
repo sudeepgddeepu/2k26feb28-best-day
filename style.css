@@ -1,0 +1,106 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url("IMG_20260227_151328.jpg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    color: #1A1A2E;
+    height: 110vh;
+
+    .one {
+        background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+        border: 1px solid #F8BBD0;
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: absolute;
+        top: 200px;
+        left: 470px;
+        padding: 30px;
+
+        h3 {
+            font-size: 30px;
+            color: #333333;
+        }
+
+        h1 {
+            font-size: 35px;
+            color: #6d1624;
+            align-items: center;
+
+            i {
+                font-size: 30px;
+            }
+        }
+
+        #heart {
+            color: red;
+        }
+
+        #world {
+            color: rgb(62, 62, 200);
+        }
+
+        #kiss {
+            color: rgb(172, 73, 89);
+        }
+
+        .quote {
+            color: #B5EAD7;
+
+            blockquote {
+                font-size: 20px;
+            }
+
+            caption {
+                font-size: 35px;
+            }
+        }
+
+        .marrage {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            h1 {
+                font-size: 35px;
+                color: #522930;
+            }
+
+
+            button {
+                background: linear-gradient(to bottom, #415ba3, #7f96d6);
+                border: 1px solid #0b183d;
+                font-size: 20px;
+                width: 100px;
+                padding: 10px 30px;
+                text-transform: uppercase;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            #noBtn {
+                position: absolute;
+            }
+
+            #yesBtn {
+                position: relative;
+            }
+
+        }
+    }
+}
